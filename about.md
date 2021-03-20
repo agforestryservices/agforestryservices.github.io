@@ -1,9 +1,9 @@
 ---
 bg: "owl.jpg"
 layout: page
-title: "About"
-crawlertitle: "Why and how this blog was created"
-permalink: /about/
+title: "Services"
+crawlertitle: "Logging and Forestry Services Offered"
+permalink: /services/
 summary: "About this blog"
 active: about
 ---
