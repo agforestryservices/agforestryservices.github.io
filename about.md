@@ -72,7 +72,7 @@ room for native plants and insects to thrive the way they should.
 Pictured above is a prescribed burn in progress to promote native grasses.
 
 Forest fires provide an important role to the ecosystem.  It resets a plot of
-land; clearing out the under brush which helps promote new growth for saplings
+land; clearing out the under-brush which helps promote new growth for saplings
 and buds.  Basically, forest fires clear out the unhealthy plants in order to
 allow healthier plants to replace them.  Land owners can emulate a controlled
 forest fire by hiring a professional.
