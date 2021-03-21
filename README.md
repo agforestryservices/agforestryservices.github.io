@@ -1,73 +1,30 @@
-## Voyager
+# About this website
 
-Just another jekyll theme. Demo: <http://redvi.github.io/voyager>
+This is the website for a commercial business.  See [LICENSE](LICENSE) for
+details.  A copyright [NOTICE](NOTICE) is also provided.
 
-### Feathures:
+This website is designed to be hosted by GitHub pages and based on the [voyager
+theme by redVi][voyager].
 
-All HTML files are compressed (see `_layouts/compress.html`).
+# Development host
 
-**Post**
+    Pop!_OS 18.04 LTS
+    Linux 5.4.0-65-generic x86_64
+    GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
+    GNU Make 4.1
+    VIM - Vi IMproved 8.0 (2016 Sep 12, compiled Oct 13 2020 15:49:09)
+    Docker version 20.10.3, build 48d30b5
 
-All post settings can be changed. Example:
+# Prerequisites
 
-```
----
-layout: post
-bg: '2016/background.jpg'
-title: "Post Heading"
-crawlertitle: "page title"
-summary: "post description"
-date: 2016-06-29
-tags : ['front-end']
-slug: post-url
-author: "Author"
-categories: posts
----
-```
+Ensure [Docker][docker] and make are installed on your computer.
 
-`bg` is a path to background of your article. By default backgrounds are placed in the `assets/images` directory.
+# Provision
 
-**Page**
+To start the website on your computer for local development run the following
+command from the root of this repository.
 
-If page contains `active` tag, it will be show on site menu.
+    make
 
-```
----
-layout: page
-title: "About"
-permalink: /about/
-active: about
----
-```
-
-**Archive**
-
-Archive page is sorting posts by tags. No more than one tag in one post.
-
-Good:
-
-```
-tags : ['front-end']
-```
-
-Bad:
-
-```
-tags : ['front-end', 'jekyll']
-```
-
-Don't forget to change `_config.yml`.
-
-**Relative paths**
-
-If your blog is not in the root directory, you can include images with a relative path. For example:
-
-```
-![my_image]({{ site.images | relative_url }}/image.jpg)
-```
-
-## Production environment
-
-Build for production:
-
-`JEKYLL_ENV=production jekyll build`
+[docker]: https://docs.docker.com/engine/install/ubuntu/
+[voyager]: https://github.com/redVi/voyager
