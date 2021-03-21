@@ -90,3 +90,10 @@ $(document).ready(function () {
 })
 */
 </script>
+
+<!-- this is the position of the sidebar image -->
+<style>
+.sidebar {
+    background-position: left center;
+}
+</style>
