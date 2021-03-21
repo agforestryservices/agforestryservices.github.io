@@ -2,10 +2,11 @@
 bg: "tag.jpg"
 layout: page
 permalink: /posts/
-title: "Archive"
-crawlertitle: "All articles"
+title: "News"
+crawlertitle: "Latest company websites"
 summary: "Posts about jekyll"
-active: archive
+active: news
+published: false
 ---
 
 {% for tag in site.tags %}

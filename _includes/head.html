@@ -13,6 +13,10 @@
     {% endif %}
   </title>
 
+  <link rel="icon" type="image/png" href="{{ site.images | relative_url }}/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="{{ site.images | relative_url }}/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ site.images | relative_url }}/favicon-96x96.png" sizes="96x96">
+
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
