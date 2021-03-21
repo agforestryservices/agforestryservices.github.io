@@ -13,9 +13,10 @@ active: about
 
 [![Harvested wood staged for buyer layout]({{ site.images | relative_url }}/logging-showcase.jpg)]({{ site.images | relative_url }}/logging-showcase.jpg)
 
-Get the most value out of your land by harvesting timber for sustainability.
 We'll help you get the most out of your timber while preserving your land's
-beauty and future harvest potential.
+beauty and future harvest potential.  Logging includes: creating a plan based on
+your objectives, marking the timber, harvesting, and merchandising logs to their
+highest value.
 
 # View Clearing
 
