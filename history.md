@@ -22,7 +22,7 @@ and profitability high for future generations to come.
 
 ### My Education
 
-> I graduated from
+> I graduated from:
 >
 > **WEST VIRGINIA UNIVERSITY**, Morgantown, WV 26506.<br />
 > _Bachelor of Science in Forestry with a major in Forest Resources Management_.
