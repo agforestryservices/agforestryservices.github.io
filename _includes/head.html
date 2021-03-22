@@ -22,7 +22,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|Roboto+Condensed:700&subset=latin' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CRoboto+Condensed:700&subset=latin' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
   <meta property="og:url" content="{{ page.url | absolute_url }}">
@@ -35,6 +35,15 @@
   <meta name="twitter:url" content="{{ page.url | absolute_url }}">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.summary }}">
+
+  {% if page.title == "Services" or page.title == "Covid-19 Update" %}
+  <!-- this is the position of the sidebar image -->
+  <style>
+  .sidebar {
+      background-position: left center;
+  }
+  </style>
+  {% endif %}
 
   {% if page.bg %}
     <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">

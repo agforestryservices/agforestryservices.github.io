@@ -84,17 +84,3 @@ backyard bonfires reducing vegetation in and around your home to full scale
 property burning to promote native grasses, help control invasive species,
 wildlife management, and much more.
 
-<script>
-/*
-$(document).ready(function () {
-    $(".viewclearingslider").cndkbeforeafter();
-})
-*/
-</script>
-
-<!-- this is the position of the sidebar image -->
-<style>
-.sidebar {
-    background-position: left center;
-}
-</style>

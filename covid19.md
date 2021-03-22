@@ -1,5 +1,5 @@
 ---
-bg: "mountain-view-clearing-1.jpg"
+bg: "skidder.jpg"
 layout: page
 title: "Covid-19 Update"
 crawlertitle: "Logging and Forestry Services Offered"
