@@ -26,5 +26,17 @@ command from the root of this repository.
 
     make
 
+# Updating dependencies
+
+You may need to update to the latest ruby version at the top of the
+[Dockerfile](Dockerfile) before upgrading.  Upgrade Ruby dependencies by running
+the following commands.
+
+    make update-gemfile
+    make deps
+
+If the above commands succeed, then you can run `make` to see the website
+locally.  If there's an error, you may need to adjust the [Gemfile](Gemfile).
+
 [docker]: https://docs.docker.com/engine/install/ubuntu/
 [voyager]: https://github.com/redVi/voyager
